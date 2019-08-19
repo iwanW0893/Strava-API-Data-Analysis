@@ -32,7 +32,7 @@ client_id, url, client_secret = credentials()
 
 ## example below. Replace the string with the code to populate the variable
 
-code = "5d8b4a29ef1507454722ed3753c1c2a1ce3e6244"
+code = "5d8b4a29ef1507454722ed3753c1c2a1ce3e0000"
 
 ## punch the code into client.exchange_code_for_token()
 def api_access(code, client_id, client_secret):
